@@ -1,10 +1,10 @@
 [appurl]: https://minecraft.curseforge.com/projects/modern-skyblock-3-departed
 [hub]: https://hub.docker.com/r/cinnamennen/modern-skyblock-3/
 
-[![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
 
 
-# linuxserver/minetest
+
+# cinnamennen/modern-skyblock-3
 [![](https://images.microbadger.com/badges/version/cinnamennen/modern-skyblock-3.svg)](https://microbadger.com/images/linuxserver/minetest "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/cinnamennen/modern-skyblock-3.svg)](https://microbadger.com/images/cinnamennen/modern-skyblock-3 "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/cinnamennen/modern-skyblock-3.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/cinnamennen/modern-skyblock-3.svg)][hub]
 
 ## Usage
