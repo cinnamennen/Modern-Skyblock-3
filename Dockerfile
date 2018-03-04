@@ -1,5 +1,10 @@
 FROM alpine:3.7
 
+ARG BUILD_DATE
+ARG VERSION
+LABEL build_version="Modern Skyblock 3 version:- ${VERSION} Build-date:- ${BUILD_DATE}"
+LABEL maintainer="cinnamennen"
+
 RUN apk --update add openjdk8-jre
 
 EXPOSE 25565
