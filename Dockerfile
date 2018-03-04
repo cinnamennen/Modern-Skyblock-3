@@ -15,6 +15,8 @@ RUN mkdir /server
 
 RUN unzip download -d /server
 
+RUN rm /download
+
 WORKDIR /server
 
 CMD java -Xms4096M -Xmx4096M -jar forge-1.12.2-14.23.2.2611-universal.jar nogui pause
