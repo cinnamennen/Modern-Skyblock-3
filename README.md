@@ -11,11 +11,13 @@
 
 ```
 docker create \
-  --name=minetest \
-  -v <path to data>:/config/.minetest \
+  --name=MS3 \
+  -v <path to save>:/server/world \
+  -v <path to logs>:/server/logs \
+  -v <path to backup>:/server/backup \
   -e PGID=<gid> -e PUID=<uid>  \
-  -p 30000:30000/udp
-  linuxserver/minetest
+  -p 25565:25565
+  cinnamennen/modern-skyblock-3
 ```
 
 ## Parameters
