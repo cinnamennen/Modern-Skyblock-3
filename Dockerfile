@@ -19,4 +19,14 @@ RUN rm /download
 
 WORKDIR /server
 
+RUN echo <<EOF
+[
+  {
+    "uuid": "7cbe0780-e542-4a11-a30f-93e3246ec044",
+    "name": "cinnamennen",
+    "level": 4
+  }
+]
+EOF > ops.json
+
 CMD java -Xms4096M -Xmx4096M -jar forge-1.12.2-14.23.2.2611-universal.jar nogui pause
