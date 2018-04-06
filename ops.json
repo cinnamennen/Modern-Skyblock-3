@@ -2,6 +2,7 @@
   {
     "uuid": "7cbe0780-e542-4a11-a30f-93e3246ec044",
     "name": "cinnamennen",
-    "level": 4
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
-] 
+]
