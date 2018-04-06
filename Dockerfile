@@ -19,14 +19,6 @@ RUN rm /download
 
 WORKDIR /server
 
-RUN echo $'\n\
-[\n\
-  {\n\
-    "uuid": "7cbe0780-e542-4a11-a30f-93e3246ec044",\n\
-    "name": "cinnamennen",\n\
-    "level": 4\n\
-  }\n\
-]\n\
-' > ops.json
+COPY ops.json ops.json
 
 CMD java -Xms4096M -Xmx4096M -jar forge-1.12.2-14.23.2.2611-universal.jar nogui pause
